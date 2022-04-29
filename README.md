@@ -8,9 +8,9 @@ In memory H2 database.
 Dockerfile
 
 **How to run Note:**
-* Build the applicaiton mvn clean package. This will create challange.1.0.0.jar in target folder
-* Build docker image docker build -t challange-image .
-* Run the image docker run -d -it --name challange challange-image:latest
+* Build the applicaiton "mvn clean package". This will create challange.1.0.0.jar in target folder
+* Build docker image  "docker build -t challange-image ."
+* Run the image "docker run -d -it --name challange challange-image:latest"
 * By default application is exposed on port 8080
 * Employees table will be loaded with 1 record. 
 
